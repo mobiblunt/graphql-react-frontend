@@ -9,8 +9,10 @@ function App() {
 
   return (
     <ApolloProvider client={client}>
-      <div className="App">
-        <h1>Bitcoin Price Calculator</h1>
+      <h1 className='text-2xl mb-2'>Bitcoin Price Calculator</h1>
+      <div className="flex justify-center">
+        
+        
         <PriceCalculator />
       </div>
     </ApolloProvider>
